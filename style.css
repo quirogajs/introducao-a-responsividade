@@ -1,0 +1,102 @@
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECE9FD;
+    padding: 6rem 2.3rem;
+    font-size: 1.6rem;
+    font-family: 'Epilogue', sans-serif;
+}
+
+main {
+    max-width: 33rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: .3rem;
+    color: #7158EF;
+    margin-bottom: 1.7rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #090039;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: rgba(10, 0, 57, 0.64);
+}
+
+a {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    color: #090039;
+    text-decoration: none;
+    display: block;
+    margin-top: 3.2rem;
+    margin-bottom: 7rem;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+    max-width: 25.7rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 3.8rem;
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8rem;
+    display: inline-block;
+    width: 3.8rem;
+}
+
+ul li + li {
+    margin-top: 3.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 8rem;
+    }
+
+    main {
+       display: flex;
+       gap: 10rem;
+       max-width: 1020px;
+    }
+
+    main > div {
+        max-width: 484px;
+    }
+
+    ul li {
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+    }
+}
